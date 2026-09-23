@@ -40,3 +40,5 @@ This project taught me how to turn a raw time series into features a regression 
 
 ## Note on the dataset
 This uses a realistic synthetic dataset since no dataset file was provided, built with a clear upward trend, yearly seasonality, and random noise. To use real data, replace the data-generation block in `predictive_analytics.py` with `df = pd.read_csv("your_file.csv", parse_dates=["Date"])`, keeping a `Date` and value column (rename to `Sales` or adjust the code).
+
+If You have Query Regarding This Then please Tag the details for understanding and tag your issue regarding this..
