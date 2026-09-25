@@ -17,13 +17,6 @@ I built this project to forecast future sales trends using regression models tra
 6. **Evaluation** — Measured MAE, RMSE, MAPE, and R² on the test set to see which model predicted more accurately.
 7. **Forecasting** — Used the better-performing model to recursively forecast the next 6 months.
 
-## Results
-
-| Model | MAE | RMSE | MAPE (%) | R² |
-|---|---|---|---|---|
-| Linear Regression | 15.53 | 20.54 | 3.54 | 0.193 |
-| Random Forest | 26.61 | 28.87 | 5.93 | -0.594 |
-
 Linear Regression performed better on this dataset (lower error, positive R²), so I used it to generate the final 6-month forecast.
 
 ## What I Learned
@@ -41,4 +34,4 @@ This project taught me how to turn a raw time series into features a regression 
 ## Note on the dataset
 This uses a realistic synthetic dataset since no dataset file was provided, built with a clear upward trend, yearly seasonality, and random noise. To use real data, replace the data-generation block in `predictive_analytics.py` with `df = pd.read_csv("your_file.csv", parse_dates=["Date"])`, keeping a `Date` and value column (rename to `Sales` or adjust the code).
 
-If You have Query Regarding This Then please Tag the details for understanding and tag your issue regarding this..
+If You have Query Regarding This Then please Tag the details for understanding and tag your issue regarding this.
